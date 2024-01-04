@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        let wrapper;
+        let cellSize=40;
+        let row_count=20;
+        let col_count=10;
+
+        function init(){
+            wrapper = document.createElement("div");
+            wrapper.style.width = cellSize * col_count+"px";
+            wrapper.style.height = cellSize * row_count+"px";
+            wrapper.style.background="gray";
+            wrapper.style.border="5px solid red";
+            wrapper.style.margin="auto";
+            
+            document.body.appendChild(wrapper);
+        }
+
+        $(function(){
+            init();
+
+            $(document.body).on("keydown", function(){
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
