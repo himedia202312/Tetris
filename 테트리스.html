@@ -40,6 +40,9 @@
             let r = getRandom(shapeAllArray.length);
             console.log(r);
 
+            //color, velRow, velCol
+            shapeAllArray.push(new Shape(brickCopyArray, "green", 0, 0)); //완성된 Type1 대칭 도형 담기            
+            
             shape = shapeAllArray[r];
             shape.clean();
             shape.render();

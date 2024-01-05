@@ -79,6 +79,3 @@ for(let i=0;i<brickArray[1].length;i++){
 }
 brickCopyArray.push(arr);
 
-//color, velRow, velCol, selectedShapeIndex
-shapeAllArray.push(new Shape(brickArray, "yellow", 0, 0,)); //완성된 Type1 도형 담기
-shapeAllArray.push(new Shape(brickCopyArray, "green", 0, 0)); //완성된 Type1 대칭 도형 담기
